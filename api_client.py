@@ -12,7 +12,7 @@ import logging
 from typing import Any, Optional
 import httpx
 
-from datalab_live.auth import get_config
+from auth import get_config
 
 logger = logging.getLogger("datalab_live.api_client")
 

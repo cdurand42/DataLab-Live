@@ -6,8 +6,8 @@ import os
 from unittest.mock import patch
 import pytest
 
-from datalab_live.api_client import is_backend_configured, make_api_request
-from datalab_live.auth import (
+from api_client import is_backend_configured, make_api_request
+from auth import (
     generate_password_hash,
     is_auth_configured,
     verify_credentials,

@@ -14,7 +14,7 @@ import pandas as pd
 import pydeck as pdk
 import streamlit as st
 
-from datalab_live.api_client import (
+from api_client import (
     get_bench,
     get_geo,
     get_health,
@@ -23,7 +23,7 @@ from datalab_live.api_client import (
     get_watch,
     is_backend_configured,
 )
-from datalab_live.auth import (
+from auth import (
     is_auth_configured,
     is_authenticated,
     render_login_form,
