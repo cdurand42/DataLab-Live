@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets & Environment (NEVER COMMIT)
+.streamlit/secrets.toml
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
